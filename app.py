@@ -44,7 +44,7 @@ def generate_response_html(success=True):
             </head>
             <body>
                 <div class="overlay">Success! Now you can use our bot.</div>
-                <a href="https://t.me/Tata_Play_Ripping_Group" class="button">Click here to go to our bot</a>
+                <a href="https://t.me/+AjTismixDR80MDE1" class="button">Click here to go to our bot</a>
                 <script>
                     setTimeout(function() {
                         window.location.href = "https://t.me/Tata_Play_Ripping_Group";
