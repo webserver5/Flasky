@@ -77,7 +77,7 @@ def generate_response_html(success=True):
 
 @app.route('/@aryanchy/id', methods=['GET'])
 def get_random_token():
-    ap = ["data" : generate_or_validate_token()]
+    ap = {"data": generate_or_validate_token()}
     return jsonify(ap)
 
 @app.route('/<token>/user/<userid>', methods=['GET'])
